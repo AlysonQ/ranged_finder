@@ -1,12 +1,12 @@
 # Contains all the information from ranged finders
 
 # The value from middle ranged sensor
-int32 M_value
+int32 Left
 
 # The value from left ranged sensor
-int32 L_value
+int32 Middle
 
 # The value from right ranged sensor
-int32 R_value
+int32 Right
 
 int32 ERROR_CODE = 819

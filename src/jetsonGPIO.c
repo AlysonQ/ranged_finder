@@ -129,7 +129,7 @@ int gpioSetValue ( jetsonGPIO gpio, unsigned int value )
             return fileDescriptor ;
         }
     }
-    printf(">>>>>>   [Alyson] [Output] GPIO %d = %d \n",gpio,value);
+    //printf(">>>>>>   [Alyson] [Output] GPIO %d = %d \n",gpio,value);
     close(fileDescriptor);
     return 0;
 }
@@ -164,7 +164,7 @@ int gpioGetValue ( jetsonGPIO gpio, unsigned int *value)
     } else {
         *value = 0;
     }
-    printf(">>>>>>   [Alyson] [Input] GPIO %d = %d \n",gpio,*value);
+    //printf(">>>>>>   [Alyson] [Input] GPIO %d = %d \n",gpio,*value);
     close(fileDescriptor);
     return 0;
 }
