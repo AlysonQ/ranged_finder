@@ -5,6 +5,9 @@
 #include "vl53l0x_api.h"
 #include "vl53l0x_platform.h"
 #include <unistd.h>
+extern "C" {  
+    #include "jetsonGPIO.h"  
+}  
 #include "ranged_finder/getSensorData.h"
 #include "ranged_finder/RangedFinder.h"
 
