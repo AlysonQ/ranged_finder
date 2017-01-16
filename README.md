@@ -3,7 +3,7 @@ A ROS package for multiple VL53L0X application on Nvidia Jetson TK1
 - Author : Ying-Hua(Alyson) Chen
 - E-mail : qoo810823@gmail.com
 - Date   : 2016.11.03
-- Check detail steps to my blog [Click me](goo.gl/YDVJA1)<br />
+- Check detail steps to my blog [Click me](https://hollyqood.wordpress.com/2016/11/07/ros-package-multi-vl53l0x-sensors-on-jetson-tk1/)<br />
 
 
 # How to build source code
@@ -16,6 +16,7 @@ A ROS package for multiple VL53L0X application on Nvidia Jetson TK1
 > catkin_make
 
 # How to RUN source code
+>
 ### Must be sudo !!
 > sudo -s
 >
