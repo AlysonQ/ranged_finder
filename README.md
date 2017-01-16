@@ -4,8 +4,8 @@ A ROS package for multiple VL53L0X application on Nvidia Jetson TK1
 - E-mail : qoo810823@gmail.com
 - Date   : 2016.11.03
 - Check detail steps to my blog [Click me](goo.gl/YDVJA1)<br />
->
->
+
+
 # How to build source code
 > cd catkin_ws/src
 >
